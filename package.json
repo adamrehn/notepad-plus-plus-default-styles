@@ -1,0 +1,11 @@
+{
+  "name": "notepad++-default-styles",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Atom port of the default Notepad++ syntax styles",
+  "repository": "https://github.com/adamrehn/notepad-plus-plus-default-styles",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

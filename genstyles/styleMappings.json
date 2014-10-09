@@ -1,0 +1,45 @@
+{
+	"c": {
+		"class": "c",
+		"styles": {
+			"PREPROCESSOR": [".preprocessor", ".preprocessor .keyword", ".preprocessor .string", ".preprocessor .string.quoted.double", ".preprocessor .string.begin", ".preprocessor .string.end", ".preprocessor *"],
+			"DEFAULT": "*",
+			"INSTRUCTION WORD": [".keyword", ".constant.language.c"],
+			"TYPE WORD": [".storage.modifier", ".type"],
+			"NUMBER": ".constant.numeric",
+			"STRING": [".string.quoted.double", ".string.begin", ".string.end", ".string .escape"],
+			"CHARACTER": [".string.quoted.single", ".string.quoted.single .escape"],
+			"OPERATOR": [".punctuation.parens", ".punctuation.section.block"],
+			"VERBATIM": null,
+			"REGEX": null,
+			"COMMENT": [".comment.block", ".comment.block *"],
+			"COMMENT LINE": [".comment.line", ".comment.line *"],
+			"COMMENT DOC": null,
+			"COMMENT LINE DOC": null,
+			"COMMENT DOC KEYWORD": null,
+			"COMMENT DOC KEYWORD ERROR": null
+		}
+	},
+	
+	"cpp": {
+		"class": "c\\+\\+",
+		"styles": {
+			"PREPROCESSOR": [".preprocessor", ".preprocessor .keyword", ".preprocessor .string", ".preprocessor .string.quoted.double", ".preprocessor .string.begin", ".preprocessor .string.end", ".preprocessor *"],
+			"DEFAULT": ["*", ".using-namespace-declaration .entity.name"],
+			"INSTRUCTION WORD": [".keyword", ".constant.language.c", ".namespace-block .storage.type.c\\+\\+", ".using-namespace-declaration .storage.type"],
+			"TYPE WORD": [".storage.modifier", ".type"],
+			"NUMBER": ".constant.numeric",
+			"STRING": [".string.quoted.double", ".string.begin", ".string.end", ".string .escape"],
+			"CHARACTER": [".string.quoted.single", ".string.quoted.single .escape"],
+			"OPERATOR": [".punctuation.parens", ".punctuation.section.block", ".punctuation.parameters.begin", ".punctuation.parameters.end"],
+			"VERBATIM": null,
+			"REGEX": null,
+			"COMMENT": [".comment.block", ".comment.block *"],
+			"COMMENT LINE": [".comment.line", ".comment.line *"],
+			"COMMENT DOC": null,
+			"COMMENT LINE DOC": null,
+			"COMMENT DOC KEYWORD": null,
+			"COMMENT DOC KEYWORD ERROR": null
+		}
+	}
+}
